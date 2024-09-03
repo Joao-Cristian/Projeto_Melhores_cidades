@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+}
+body{
+    background-color: whitesmoke;
+}
+hr{
+    border-color: gray;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;    
+    display: flex;
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;    
+    width: 50%;
+    height: 199px;
+    padding-left: 50px;
+}
+.box1 img{
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.box1 img:hover{
+    transform: scale(1.3);    
+}
+.box2{
+    padding-left: 40px;
+    padding-top: 10px;    
+    width: 50%;
+    height: 199px;
+}
+.box2 h2{
+    text-align: center;
+    transition: 0.5s;
+}
+.box2 h2:hover{
+    color: coral;
+}
+.box2 p{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+p{     
+    padding-top: 10px;    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    transition: 0.5s;
+}
+h2:hover{
+    color: coral;
+}
+.conteudo1{
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;    
+}
+.conteudo2{
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;    
+    text-align: center;
+}
+.conteudo2 h2{
+    margin-top: 25px;
+}
+
+.conteudo2 p{
+    margin-bottom: 50px;
+}
+.retornar-box{
+    width: 100%;
+    height: 50px;    
+    background-color: gainsboro;
+}
+.voltar{
+    padding-top: 13px;
+    color: blueviolet;    
+    transition: 0.5s;
+}
+
+.voltar:hover{
+    transform: scale(1.5);
+}
+a{
+    text-decoration: none;
+}
+
+
+
